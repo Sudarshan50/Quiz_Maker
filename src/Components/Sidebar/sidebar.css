@@ -1,0 +1,39 @@
+.side__wrapper{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.886);
+    color: lightgrey;
+    width: 20vw;
+    min-width: 300px;
+    text-align: center;
+    padding-top: 70px;
+}
+.side__wrapper .header{
+    font-size: 1.7rem;
+    margin-bottom: 30px;
+}
+.side__wrapper .user .avatar{
+    width: 9vw;
+    height: 9vw;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.side__wrapper .user .name{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+.side__wrapper .links{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 80px;
+    font-size: 1.2rem;
+}
+.side__wrapper .link{
+    color: lightgrey;
+    text-decoration: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 15px 25px;
+}

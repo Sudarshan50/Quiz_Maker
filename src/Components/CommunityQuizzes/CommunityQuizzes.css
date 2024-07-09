@@ -1,0 +1,68 @@
+.community__quizzes__wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.community__quizzes__wrapper .body{
+    width: 100%;
+    overflow: scroll;
+    height: 100vh;
+}
+.community__quizzes__wrapper .header__top{
+    font-size: 2em;
+    font-weight: 500;
+    padding: 40px 0 0 40px;
+}
+.community__quizzes__wrapper .quizzes__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 100%;
+}
+.community__quizzes__wrapper .quizzes__wrapper .quiz__card
+{
+    margin-top: 40px;
+    width: fit-content;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+.community__quizzes__wrapper .quizzes__wrapper .quiz__card .top__section{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #00000033;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.community__quizzes__wrapper .quizzes__wrapper .quiz__card .top__section >div{
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+}
+.community__quizzes__wrapper .quizzes__wrapper .quiz__card .top__section img{
+    width: 2vw;
+    margin-left: 10px;
+
+}
+.community__quizzes__wrapper .quizzes__wrapper .quiz__card img{
+    object-fit: contain;
+    width: 18vw;
+}
+.community__quizzes__wrapper .quizzes__wrapper .quiz__card .quiz__name{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.community__quizzes__wrapper .quizzes__wrapper .quiz__card .take__quiz{
+    width: 50%;
+    margin-top: 20px;
+    margin: 20px auto 0;
+    color: white;
+}
+.community__quizzes__wrapper .quizzes__wrapper .quiz__card .questions{
+    margin: 2px 0;
+}
