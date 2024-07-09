@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import axios from "axios";
-let url = "http://localhost:8000";
+let url = "https://quiz-maker-orpin.vercel.app";
 axios.defaults.baseURL = url;
 axios.defaults.headers.post["Content-Type"] = "application/json";
 axios.defaults.headers.common["Authorization"] = "Bearer token: " + localStorage.getItem('JWT_PAYLOAD');
