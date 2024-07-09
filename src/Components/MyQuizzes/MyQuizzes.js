@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./myquizzes.css";
 import axios from "axios";
 import Sidebar from "../Sidebar/Sidebar";
-import { set } from "mongoose";
 import { useNavigate } from "react-router-dom";
 
 const MyQuizzes = () => {
